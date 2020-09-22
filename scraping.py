@@ -40,6 +40,9 @@ def search_base(url,tnum):
 # 9025111111 - str, tnum.isnumeric()
 # 9025111111,9025222222,9086333333 - str, tnum.split(',')[0].isnumeric()
 # phones.txt - str, NOT tnum.split(',')[0].isnumeric()
+# файл с телефонами:
+# [andrei@atc HTML]$  cat phones.txt
+# 9025111111,9025222222,9086333333
 if tnum.isnumeric() == 1:
   n= tnum
   x = search_base(url,n)
@@ -53,8 +56,8 @@ else:
   else:
     phones_txt = sys.argv[1]
     f = open(phones_txt, 'r')
-    phones = [line.strip() for line in f]
-    tnum = phones[0]
+    phons = [line.strip() for line in f]
+    tnum = phons[0]
     for n in tnum.split(','):
       x = search_base(url,n)
       print (x)
