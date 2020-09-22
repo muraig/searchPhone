@@ -16,7 +16,7 @@ if (len(sys.argv) == 1):
 elif len(sys.argv) == 2:
   if (sys.argv[1]):  tnum = sys.argv[1]
 
-url = "https://zniis.ru/bdpn/check/?num="
+url = "url phone base"
 
 phones = []
 
