@@ -11,7 +11,7 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 ##########################################
 # Переменные
 if (len(sys.argv) == 1):
-  print ("Добавте номер телефона! например ", sys.argv[0], '9025773363"')
+  print ("Добавте номер телефона! например ", sys.argv[0], '9025111111"')
   sys.exit()
 elif len(sys.argv) == 2:
   if (sys.argv[1]):  tnum = sys.argv[1]
