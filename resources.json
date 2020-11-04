@@ -2,6 +2,7 @@
    "_copyright": "Copyright (C) 2020 - 2020, AndreiM",
   "_author": "Andrei M. <muraigtor@gmail.com>",
   "apiVersion": "5.1.1",
+  "swaggerVersion": "1.1",
   "basePath": "http://localhost:8088/ari",
   "apis": [
     {
